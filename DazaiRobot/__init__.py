@@ -119,7 +119,7 @@ else:
     TIME_API_KEY = Config.TIME_API_KEY
     WORKERS = Config.WORKERS
     
-    ARQ_API_URL = Config.ARQ_API_URL 
+    
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
