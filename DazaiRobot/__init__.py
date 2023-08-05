@@ -179,7 +179,7 @@ finally:
 telethn = TelegramClient("Dazai", API_ID, API_HASH)
 
 pbot = Client("DazaiRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-dispatcher = updater.dispatcher
+# dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
 print("[INFO]: Getting Bot Info...")
