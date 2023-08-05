@@ -12,13 +12,6 @@ from telethon import TelegramClient
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 
-ARQ_API_KEY = "TERUCL-QAQIEX-WBAPVK-XGCOHJ-ARQ"
-ARQ_API_URL = "arq.hamker.dev"
-
-aiohttpsession = ClientSession()
-
-arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
-
 
 StartTime = time.time()
 
@@ -125,7 +118,7 @@ else:
     TOKEN = Config.TOKEN
     TIME_API_KEY = Config.TIME_API_KEY
     WORKERS = Config.WORKERS
-    ARQ_API_KEY = Config.ARQ_API_KEY
+    
     ARQ_API_URL = Config.ARQ_API_URL 
 
     try:
