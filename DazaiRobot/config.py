@@ -7,13 +7,13 @@ class Config(object):
 
     CASH_API_KEY = "PRPSG4AY3Q3H0QG0"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "postgres://hsmuekcu:mL-fqMUTRXpd2-i7BTNXlLPM9mS9HtKg@snuffleupagus.db.elephantsql.com/hsmuekcu"  # A sql database url from elephantsql.com
+    DATABASE_URL = ""  # A sql database url from elephantsql.com
 
     EVENT_LOGS = "MadaraUchihaBotLog"  # Event logs channel to note down important bot level events
 
-    REDIS_URL = "redis://default:Wmy7H43tmBvnieH5QbPdlPSHEFFgLyMS@redis-17894.c257.us-east-1-3.ec2.cloud.redislabs.com:17894" # Get it from redis.com
+    REDIS_URL = "" # Get it from redis.com
 
-    MONGO_DB_URI = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://neisns:hansjs@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://graph.org/file/60e01e9303094d231be1f.jpg"
@@ -22,7 +22,7 @@ class Config(object):
 
     SUPPORT_CHAT = "JHBots"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6330964987:AAGGGM2iz-2hTmZLkiigTQgTCHMPePRC6AY"  # Get bot token from @BotFather on Telegram
+    TOKEN = ""  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "S3J6EISOC17L"  # Get this value from https://timezonedb.com/api
 
